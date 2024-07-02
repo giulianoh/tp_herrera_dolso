@@ -1,0 +1,57 @@
+/* Products.css */
+.content-container {
+  display: flex;
+  align-items: flex-start; /* Asegura que el título y los productos estén alineados en la parte superior */
+  width: 100%; /* Utiliza todo el ancho */
+  margin: 0 auto; /* Centra el contenido */
+  background-color: #ebe8e8;
+}
+
+.category-title {
+  width: 10%; /* Ajusta el ancho del título de la categoría */
+  padding-right: 60px; /* Espacio considerable entre el título y la lista de productos */
+  padding-left: 130px; /* Espacio a la izquierda para evitar que el título esté muy pegado al borde */
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  width: 80%; /* Ajusta el ancho de la lista de productos para un mejor control visual */
+  align-items: center;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%; /* Utiliza todo el ancho del contenedor de la lista */
+  max-width: 75%; /* Limita el máximo ancho para alargar un poco los contenedores de los productos */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid black;
+  margin-top: 10px; /* Espacio entre tarjetas para una separación visual clara */
+}
+
+.product-card img {
+  width: 150px; /* Tamaño fijo de la imagen */
+  height: auto;
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.product-card div {
+  display: flex;
+  flex-direction: column; /* Organiza el texto en columna debajo de la imagen */
+  align-items: flex-start; /* Alinea el texto a la izquierda dentro del contenedor */
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 0; /* No hay espacio adicional debajo del título para mantener un diseño limpio */
+}
+
+.category-title p {
+  font-size: 16px; /* Ajusta el tamaño de fuente según sea necesario */
+  color: #666; /* Color para el texto de resultados */
+  margin: 5px 0; /* Ajusta los márgenes para asegurarte de que el texto no esté cortado o demasiado apretado */
+}
